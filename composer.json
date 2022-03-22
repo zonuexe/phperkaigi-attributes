@@ -1,0 +1,20 @@
+{
+    "name": "phperkaigi/attributes",
+    "description": "Welcome to PHPerKaigi 2022",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "spiral/attributes": "^2.11",
+        "symfony/polyfill-php80": "^1.25",
+        "symfony/polyfill-php81": "^1.25"
+    },
+    "autoload": {
+        "files": ["src/functions.php"],
+        "psr-4": {
+            "PHPerKaigi\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
