@@ -4,9 +4,13 @@
     "license": "MIT",
     "require": {
         "php": ">=7.4",
+        "psr/hug": "^1.0-dev",
         "spiral/attributes": "^2.11",
         "symfony/polyfill-php80": "^1.25",
         "symfony/polyfill-php81": "^1.25"
+    },
+    "require-dev": {
+        "navarr/fig-hug-interfaces": "@dev"
     },
     "autoload": {
         "files": ["src/functions.php"],
